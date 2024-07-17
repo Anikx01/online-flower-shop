@@ -8,3 +8,48 @@
 body{
     font-family: "Poppins", sans-serif;
 }
+.banner-container{
+    max-width: 1440px;
+    height:550px;
+    background-color: rgba(229, 84, 115, 0.1);
+}
+.banner-content{
+    width: 90%;
+    height: 90%;
+    margin: 0px auto;
+    display: flex;
+
+}
+.banner-text-content{
+    width: 50%;
+    height: 550px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-image-content{
+    width: 50%;
+    height: 550px;
+
+}
+.banner-text-content h3{
+   margin-right: 380px;
+}
+.banner-text-content button{
+    margin-right: 450px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #E55473;
+}
+.banner-image-content img{
+    width: 50%;
+    height: 550px;
+}
+.banner-image-content{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
